@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">ETAT CIVIL</form>
+    <form action="">NOM : <input type="NOM"></FORM>
+    <form action="">Prénom: <input type="Prénom"></FORM>
+    <form action="">code postal:<input type="test" pattern="[0-9]{5}"><br><input type="submit"></form>
+
+    <form action=""><select size="4">
+            <option>Moins de 20 ans</option>
+            <option>De 20 à 40 ans</option>
+            <option>De 40 à 60 ans</option>
+            <option>Plus de 60 ans</option>
+        </select>
+    </form>
+
+    <form action="">
+        <p>Votre navigateur préféré :<select>
+                <option value="ME">Edge</option>
+                <option value="FF">Firefox</option>
+                <option value="S" selected>Safari</option>
+                <option value="O">Opera</option>
+                <option value="GC">Google Chrome</option>
+            </select></p>
+    </form>
+
+    <form action="">Sexe :<br><input type="radio" name="sexe">Masculin<input type="radio" name="sexe">Féminin
+    </form>
+
+    <form action="">Votre pizza avec :<br>
+        <input type="checkbox" name="n1" checked>4 fromages
+        <input type="checkbox" name="n2">reine
+        <input type="checkbox" name="n3">marguarita
+        <input type="checkbox" name="n4">
+        <input type="checkbox" name="n5">
+        <input type="checkbox" name="n6">
+        <input type="checkbox" name="n7">
+    </form>
+
+    <form action="">
+        <input type="submit">
+    </form>
+
+    <form action="">
+        <input type="reset">
+    </form>
+
+    <button onclick="alert('En attente')">Cliquez avec la souris</button>
+
+    <button><img src="ok.png" alt="Soumettre" width="60" height="30"></button>
+
+    <input type="hidden" name="c" value="3.1416">
+
+    <form action="" method="post" enctype="multipart/form-data"><input type="file"></form>
+
+    <form action="">Login :<input type="password"></form>
+
+    <form action="">Choisir un fruit : <input type="text" list="fruits">
+        <datalist id="fruits">
+            <option value="Orange"></option>
+            <option value="Pomme"></option>
+            <option value="Poire"></option>
+            <option value="Prune"></option>
+        </datalist>
+    </form>
+
+    <fieldset>
+        <legend>Choose your favorite monster</legend>
+
+        <input type="radio" id="kraken" name="monster">
+        <label for="kraken">Kraken</label><br />
+
+        <input type="radio" id="toto" name="monster">
+        <label for="toto">toto</label><br />
+
+        <input type="radio" id="mothman" name="monster">
+        <label for="mothman">Mothman</label>
+    </fieldset>
+
+    <label for="email">Enter your hotmail.com email:</label>
+
+    <input type="email" id="email" pattern=".+@hotmail.com" size="30" required>
+
+    <label for="url">Enter an https:// URL:</label>
+
+    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+    <label for="tentacles">Number of tentacles (10-100):</label>
+
+    <input type="number" id="tentacles" name="tentacles" min="10" max="100">
+
+    <div>
+        <input type="range" id="volume" name="volume" min="0" max="11">
+        <label for="volume">Volume</label>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

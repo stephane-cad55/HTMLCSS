@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo5</title>
+
+    <style type="text/css">
+        input:invalid {
+            background-color: rgb(243, 59, 59);
+        }
+
+        input,
+        button,
+        select {
+            padding: 6px;
+            border-radius: 5px;
+        }
+
+        input:valid {
+            background-color: rgb(10, 206, 10);
+        }
+
+        label {
+            width: 160px;
+            display: inline-block;
+        }
+
+        select {
+            vertical-align: middle;
+        }
+
+        span {
+            vertical-align: bottom;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" name="exo5" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Formulaire d'inscription</legend>
+            <p>
+                <label for="name">Nom :</label>
+                <input type="text" name="name" id="lname" placeholder="Votre nom" required>
+            </p>
+            <p>
+                <label for="fname">Prénom :</label>
+                <input type="text" name="fame" id="fname" placeholder="Votre prénom" required>
+            </p>
+            <p>
+                <label for="mail">Mail :</label>
+                <input type="email" name="mail" id="mail" placeholder="Votre Email" required>
+            </p>
+            <p><label for="sexe">Sexe :</label>
+                <input type="radio" name="sexe" id="sexe" value="m">Masculin
+                <input type="radio" name="sexe" value="f">Féminin
+            </p>
+            <p>
+                <label for="photo">Votre photo :</label>
+                <input type="file" name="photo" id="photo" accept=".jpeg, .png, .jpg">
+            </p>
+            <p>
+                <label for="pays">Pays :</label>
+                <select name="pays" id="pays">
+                    <option value="FRANCE">FRANCE</option>
+                    <option value="ANGLETERRE">ANGLETERRE</option>
+                    <option value="ALLEMAGNE">ALLEMAGNE</option>
+                    <option value="ITALIE">ITALIE</option>
+                    <option value="SUISSE">SUISSE</option>
+                    <option value="ESPAGNE">ESPAGNE</option>
+                </select>
+            </p>
+            <p>
+                <label for="language">Les languages préférés :</label>
+                <select name="language" id="language" size="4" multiple>
+                    <option value="JAVA">JAVA</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PYTHON">PYTHON</option>
+                </select>
+                <span>(Pour faire plusieurs choix maintenir la touche CTRL enfoncée)</span>
+            </p>
+            <p>
+                <label for="domaine">Domaines d'activités: </label>
+                <input type="checkbox" name="developpement" id="domaine" value="developpement"> Dévelopement
+                <input type="checkbox" name="gestioProjet" value="Gestion de projet">Gestion de projet
+                <input type="checkbox" name="bdd" value="bdd">Base de données
+            </p>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Annuler</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

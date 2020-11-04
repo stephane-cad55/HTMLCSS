@@ -4,15 +4,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: 
-    "a a a a b b b b c c d d " 
-    "a a a a b b b b c c d d "
-    "e e f f g g g g h h i i "
-    "e e f f g g g g h h i i "  
-    "j j k k . . . . l l m m " 
-    "j j k k . . . . l l m m "
-    "n n n n . . . . o o o o "
-    "n n n n . . . . o o o o ";
+    grid-template-areas: "a a a a b b b b c c d d " "a a a a b b b b c c d d " "e e f f g g g g h h i i " "e e f f g g g g h h i i " "j j k k z z z z l l m m " "j j k k z z z z l l m m " "n n n n z z z z o o o o " "n n n n z z z z o o o o ";
     grid-gap: 10px;
 }
 
@@ -24,7 +16,7 @@ div>div {
     grid-area: a;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -58,7 +50,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -66,7 +58,7 @@ div>div {
     grid-area: g;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -75,7 +67,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -84,7 +76,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -93,7 +85,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -102,7 +94,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -111,7 +103,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -120,7 +112,7 @@ div>div {
     border: solid 2px black;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -128,7 +120,7 @@ div>div {
     grid-area: n;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
 
@@ -136,10 +128,12 @@ div>div {
     grid-area: o;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
+
 #vide {
+    grid-area: z;
     border: solid 1px black;
 }
 
@@ -164,9 +158,9 @@ div>div {
 }
 
 .couleur6 {
-    background-color: #ff7f00 ;
+    background-color: #ff7f00;
 }
 
 .couleur7 {
-    background-color: #6500cd ;
+    background-color: #6500cd;
 }

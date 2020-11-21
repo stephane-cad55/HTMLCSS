@@ -54,6 +54,27 @@ body {
     font-size: 5rem;
 }
 
+h1 {
+    animation-duration: 5s;
+    animation-name: glissement;
+}
+
+@keyframes glissement {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+    75% {
+        font-size: 500%;
+        margin-left: 0%;
+        width: 150%;
+    }
+}
+
 .hdrclass h2 {
     font-size: 2rem;
 }

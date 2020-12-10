@@ -1,0 +1,22 @@
+body {
+    background: url(../images/fond.jpeg) no-repeat center center/cover fixed;
+}
+
+h1 {
+    color: yellow;
+    font-family: cursive;
+}
+
+h2, h3 {
+    color: rgb(106, 224, 102);
+}
+
+p, li {
+    color: rgba(244, 244, 248, 0.856);
+    font-size: 30px;
+    font-family: serif;
+}
+
+img{
+border-radius: 15px;
+}

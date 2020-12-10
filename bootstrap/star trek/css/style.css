@@ -1,5 +1,5 @@
 body {
-    background: url(images/fond.jpeg) no-repeat center center/cover fixed;
+    background: url(../images/fond.jpeg) no-repeat center center/cover fixed;
 }
 
 h1 {
@@ -17,6 +17,6 @@ p, li {
     font-family: serif;
 }
 
-img{
-border-radius: 15px;
+img {
+    border-radius: 15px;
 }

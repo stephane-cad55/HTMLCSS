@@ -18,48 +18,51 @@
 
 <body>
 
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">LA SAGA STAR TREK</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
-                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="container">
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#accueil">Accueil
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#vaisseau">Le vaisseau</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#equipage">L'équipage</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-text">
+                <a class="navbar-brand text-warning" href="#accueil">LA SAGA STAR TREK</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="container">
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-warning" href="#accueil">Accueil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="#vaisseau">Le vaisseau</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="#equipage">L'équipage</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
             <h1 id="accueil" class="text-center"><b>STAR TREK</b></h1>
 
             <section>
                 <div class="bg-dark border mt-2">
                     <h2 class="text-center"> La vision, le message, et les clés d'une série culte</h2>
+                    <blockquote>
+                        <p class="text-center" class="text-justify">"Espace, frontière de l'infini vers lequel voyage
+                            notre
+                            vaisseau
+                            spatial.Sa mission : Explorer de
+                            nouveaux mondes étranges, decouvrie de nouvelles vies, d'autres civilisations, et au mépris
+                            du
+                            danger,
+                            reculer l'impossible"
+                        </p>
 
-                    <p class="text-center" class="text-justify">"Espace, frontière de l'infini vers lequel voyage notre
-                        vaisseau
-                        spatial.Sa mission : Explorer de
-                        nouveaux mondes étranges, decouvrie de nouvelles vies, d'autres civilisations, et au mépris du
-                        danger,
-                        reculer l'impossible"
-                    </p>
-
-                    <p class="text-center">(Générique de la série)</p>
+                        <p class="text-center">(Générique de la série)</p>
+                    </blockquote>
                 </div>
             </section>
 
@@ -153,35 +156,41 @@
 
                 <h3>Mr SCOTT chef-mécanicien</h3>
 
-                <div>
-                    <img src="images/scott.jpg" class="img-fluid w-2" alt="photo8">
-                </div>
-                <div>
-                    <p>Officier technique, son domaine, c'est la "mécanique". Ecossais bonnace, bourru, bon vivant,
-                        un
-                        brin
-                        primaire, ses idées sont carrées mais viennent du coeur. Sa fierté: le réacteur matière
-                        anti-matière
-                        de
-                        l'Entreprise.
-                        Il veille également sur le téléporteur, l'engin qui permet de dissocier les atomes du corps
-                        d'un
-                        endroit
-                        pour les reconstituer intacts dans un autre, grâce au rapport matière-énergie. La précision
-                        est
-                        au
-                        mètre
-                        près...
-                    </p>
+                <div class="row">
+
+                    <div class="col">
+                        <img src="images/scott.jpg" class="img-fluid w-100" alt="photo8">
+                    </div>
+
+                    <div class="col">
+                        <p>Officier technique, son domaine, c'est la "mécanique". Ecossais bonnace, bourru, bon vivant,
+                            un
+                            brin
+                            primaire, ses idées sont carrées mais viennent du coeur. Sa fierté: le réacteur matière
+                            anti-matière
+                            de
+                            l'Entreprise.
+                            Il veille également sur le téléporteur, l'engin qui permet de dissocier les atomes du corps
+                            d'un
+                            endroit
+                            pour les reconstituer intacts dans un autre, grâce au rapport matière-énergie. La précision
+                            est
+                            au
+                            mètre
+                            près...
+                        </p>
+                    </div>
                 </div>
 
 
                 <h3>Mlle UHURA officier des communications</h3>
-                <div>
-                    <div>
-                        <img src="images/hara.jpg" class="img-fluid w-2" alt="photo9">
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/hara.jpg" class="img-fluid w-100" alt="photo9">
                     </div>
-                    <div>
+
+                    <div class="col">
                         <p>L'officier des transmissions est une jeune femme dont le nom signifie "liberté" en swahili.
                             Son
                             regard dégage une douceur infinie. Dans les moments de détentes à bord de l'Entreprise, elle
@@ -191,16 +200,17 @@
                     </div>
                 </div>
 
-                <h3>Mr SULU et Mr TCHEKOV officiers navigateurs</h3>
-
+                <div class="mt-md-5">
+                    <h3>Mr SULU et Mr TCHEKOV officiers navigateurs</h3>
+                </div>
                 <div class="row">
-                    <div>
-                        <img src="images/zulu.jpg" class="img-fluid w-2" alt="photo10">
+                    <div class="col">
+                        <img src="images/zulu.jpg" class="img-fluid w-100" alt="photo10">
                     </div>
-                    <div>
-                        <img src="images/tchekov.jpg" class="img-fluid w-2" alt="photo11">
+                    <div class="col">
+                        <img src="images/tchekov.jpg" class="img-fluid w-100" alt="photo11">
                     </div>
-                    <div>
+                    <div class="col">
                         <p>Cosmopolite, l'équipage de l'Entreprise compte parmi ses officiers-pilotes un Russe pas très
                             malin, et un Japonais facétieux. Tous deux font quasiment partie du décor de la
                             "passerelle".
@@ -322,7 +332,8 @@
 
             <div class="d-flex justify-content-center">
                 <img src="images/spock2.jpg" class="img-fluid w-2" alt="photo16">
-            </div
+            </div>
+
             <div class="mt-md-4">
                 <p>
                     Une des étapes de cette évolution est le développement la télépathie, définie par Spock comme une
@@ -347,61 +358,175 @@
                     verbe.
                 </p>
             </div>
+        </div>
 
 
-            <div class="d-flex justify-content-center">
-                <img src="images/kirk.jpg" class="img-fluid w-2" alt="photo17">
-            </div>
+        <div class="d-flex justify-content-center">
+            <img src="images/kirk.jpg" class="img-fluid w-2" alt="photo17">
+        </div>
 
-            <div class="mt-md-4">
-                <p>
-                    Mais la race dont il est vraiment fait l'apologie dans Star Trek, c'est la race humaine, représentée
-                    dans ce qu'elle a de meilleur par le trio de l'Entreprise. Chacun d'entre eux est chargé de
-                    symboliser
-                    les trois outils dont dispose l'Homme réaliser sa Trinité: l'esprit pour "voir", l'âme pour
-                    "sentir", le
-                    corps pour agir...et l'ensemble pour créer...
+        <div class="mt-md-4">
+            <p>
+                Mais la race dont il est vraiment fait l'apologie dans Star Trek, c'est la race humaine, représentée
+                dans ce qu'elle a de meilleur par le trio de l'Entreprise. Chacun d'entre eux est chargé de
+                symboliser
+                les trois outils dont dispose l'Homme réaliser sa Trinité: l'esprit pour "voir", l'âme pour
+                "sentir", le
+                corps pour agir...et l'ensemble pour créer...
 
-                    A l'homme à la recherche de son essence, Star Trek communique certaines clés. Ainsi, l'équilibre
-                    naît de
-                    l'unité, et cette unité naît de la diversité. "Il y a dans la création une diversité infinie" nous
-                    dit
-                    Spock. "Et ce qui nous différencie doit en fait se combiner afin de créer l'universalité et la
-                    beauté...". Chaque homme doit être aimé pour la totalité qu'il forme, et qui le rend unique. Il est
-                    constamment question dans Star Trek de valeurs telles que la tolérance, la compassion, ou l'amour,
-                    en
-                    tant que quintessence de l'homme. A l'aube du 21è siècle, au moment l'Humanité hésite entre des
-                    destins
-                    contradictoires, de haine ou de fraternité, ce discours apporte une voix juste.
-
-
-                    Sylvain Timsit
-                </p>
-            </div>
-
-            <div>
-                <p class="d-flex justify-content-center">article publié dans Globe, Juin 1987
-                    images: © Paramount Pictures</p>
-            </div>
+                A l'homme à la recherche de son essence, Star Trek communique certaines clés. Ainsi, l'équilibre
+                naît de
+                l'unité, et cette unité naît de la diversité. "Il y a dans la création une diversité infinie" nous
+                dit
+                Spock. "Et ce qui nous différencie doit en fait se combiner afin de créer l'universalité et la
+                beauté...". Chaque homme doit être aimé pour la totalité qu'il forme, et qui le rend unique. Il est
+                constamment question dans Star Trek de valeurs telles que la tolérance, la compassion, ou l'amour,
+                en
+                tant que quintessence de l'homme. A l'aube du 21è siècle, au moment l'Humanité hésite entre des
+                destins
+                contradictoires, de haine ou de fraternité, ce discours apporte une voix juste.
 
 
+                Sylvain Timsit
+            </p>
+        </div>
 
-            <!-- Optional JavaScript; choose one of the two! -->
+        <div>
+            <p class="d-flex justify-content-center">article publié dans Globe, Juin 1987
+                images: © Paramount Pictures</p>
+        </div>
 
-            <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-                crossorigin="anonymous"></script>
+        <div class="d-flex justify-content-center">
+            <img src="images/dvd.jpg" class="img-fluid w-2" alt="photo18">
+        </div>
 
-            <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+        <section class="mt-md-4">
+            <p class="d-flex justify-content-center">"Star Trek, the original series"
+                La plus philosophique des séries de SF enfin en DVD et en version intégrale,
+                dans 3 boitiers au design très Star Trek !</p>
+
+            </article>
+
+            <article class=" mt-md-4">
+                <h2 class="d-flex justify-content-center">Liens</h2>
+                <ul>
+                    <li><a href="http://www.arbredespossibles.com/blog/index.php?article=99">"Star Trek,
+                            aux frontières
+                            de l'infini"</a>
+                        un documentaire sur la vision du futur de Star Trek et son influence dans
+                        les décennies qui ont suivi, avec des interviews des scientifiques ou artistes que la série a
+                        inspiré...</li>
+                    <li><a href="http://www.communaute-francophone-star-trek.net/">forum</a> consacré à
+                        l'univers de
+                        Star Trek</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2 class="d-flex justify-content-center">Thèmes associés</h2>
+                <div>
+                    <h3 class="">L'humain du futur</h3>
+                    <div class="row">
+                        <div class="col"><img class="img-fluid w-25" src="images/futur.jpg" alt="photo19"></div>
+                        <div class="col">
+                            <p>Les étapes vers une civilisation planétaire, et les 24 stades de l'évolution humaine
+                                imaginés par Timothy Leary. Les 12 derniers stades correspondent à notre évolution
+                                potentielle, et à l'éveil de nos facultés latentes...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="">Le modèle Ummite de l'Univers</h3>
+                    <div class="row">
+                        <div class="col"><img class="img-fluid w-25" src="images/modele.jpg" alt="photo20"></div>
+                        <div class="col ">
+                            <p>
+                                Les connaissances des extra-terrestres Ummites sur l'Univers, la matière, l'esprit...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="">Astrobiologie</h3>
+                    <div class="row">
+                        <div class="col"><img class="img-fluid w-25" src="images/astro.jpg" alt="photo21"></div>
+                        <div class="col ">
+                            <p>
+                                Les conditions nécéssaires à l'apparition et au développement de la vie sur une planète
+                                peuvent se résumer en un mot: EQUILIBRE...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="">Voyage dans le système solaire</h3>
+                    <div class="row">
+                        <div class="col"><img class="img-fluid w-25" src="images/solaire.jpg" alt="photo22"></div>
+                        <div class="col ">
+                            <p>
+                                Un voyage vers des mondes étranges et radicalement différents de la Terre...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="">UFO Sightings by astronauts</h3>
+                    <div class="row">
+                        <div class="col"><img class="img-fluid w-25" src="images/ufo.jpg" alt="photo23">
+                        </div>
+                        <div class="col ">
+                            <p>
+                                Presque tous les astronautes auraient eu l'occasion d'observer des vaisseaux
+                                extra-terrestres lors des vols de la navette ou lors des missions lunaires Apollo. Les
+                                témoignages étonnants d'astronautes américains, comme Neil Amstrong, Edwin Aldrin, Scott
+                                Carpenter, ou Gordon Cooper... (en anglais)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="">Bibliographie</h3>
+                    <div class="row">
+                        <div class="col"><img class="img-fluid w-25" src="images/book.jpg" alt="photo24"></div>
+                        <div class="col ">
+                            <p>
+                                Quelques livres initiatiques pour répondre à quelques questions essentielles: D'où
+                                venons-nous? Qui sommes-nous? Où allons-nous?...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <div class="row">
+            <div class="col d-flex justify-content-center"><img class="img-fluid w-25" src="images/logo.png"
+                    alt="photo25"></div>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-        </div>
+
+
     </div>
 </body>
 
